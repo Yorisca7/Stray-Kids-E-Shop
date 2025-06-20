@@ -1,0 +1,9 @@
+rootProject.name = 'Straykids'
+
+include ':app'
+include ':capacitor-android'
+include ':capacitor-cordova-android-plugins'
+
+project(':app').projectDir = new File('android/app')
+project(':capacitor-android').projectDir = new File('android/capacitor-android')
+project(':capacitor-cordova-android-plugins').projectDir = new File('android/capacitor-cordova-android-plugins')

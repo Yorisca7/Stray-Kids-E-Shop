@@ -1,0 +1,7 @@
+{
+  "name": "Straykids",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
